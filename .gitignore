@@ -1,0 +1,4 @@
+###Django
+__pycache__/
+profiles_api/__pycache__/
+db.sqlite3
