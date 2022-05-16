@@ -7,7 +7,7 @@ class UpdateOwnProfile(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
         """ Chequear si usuario esta intentando editar su propio perfil """
 
-        if request.metho in permissions.SAFE_METHODS:
+        if request.method in permissions.SAFE_METHODS:
             return True
         
         return obj.id == request.user.id
