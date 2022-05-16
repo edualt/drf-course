@@ -1,4 +1,5 @@
 ###Django
 __pycache__/
 profiles_api/__pycache__/
+profiles_project/__pycache__
 db.sqlite3
